@@ -7,7 +7,7 @@ from time import sleep
 # get the path to the ChromeDriver executable
 driver_path = ChromeDriverManager().install()
 
-# create a new Chrome browser instance
+# create a new Chrome browser instancegit
 service = Service(driver_path)
 driver = webdriver.Chrome(service=service)
 driver.maximize_window()
